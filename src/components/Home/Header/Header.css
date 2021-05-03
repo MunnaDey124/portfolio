@@ -1,0 +1,53 @@
+.header_wrapper{
+    position: relative;
+    background-image: url(../../../images/bg.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 600px;
+    width: 100%;
+}
+.main-info{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   font-family:'Roboto', sans-serif ;
+   z-index: 1;
+
+}
+.main-info h3{
+    color:rgb(255, 106, 7);
+}
+.main-info h1{
+    color:white;
+}
+.typed-text{
+    font-size: 25px;
+    color: white;
+    padding-bottom: 30px;
+}
+.button{
+    border: 1px solid rgb(255, 168, 7);
+    padding: 5px 10px 5px 10px;
+    color: white;
+    background-color: #FD4C00;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.tsparticles-canvas-el{
+    position: absolute;
+    height: 90vh;
+    width: 100vw;
+    z-index: 1;
+}
+.aboutMe{
+    font-size: 10px;
+    color:rgb(0, 255, 234);
+    font-size: 20px;
+}

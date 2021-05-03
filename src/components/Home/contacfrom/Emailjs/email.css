@@ -1,0 +1,21 @@
+.form_style{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   font-family:'Roboto', sans-serif ;
+   color: white;
+   z-index: 2;
+}
+.tsparticles-canvas-el{
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    z-index: 1;
+}
